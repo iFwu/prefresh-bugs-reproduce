@@ -18,7 +18,7 @@ Changing codes in `useEffect` not triggers refresh. e.g. Change interval time, t
 
 
 ## For `@prefresh/snowpack`
-### change a component then change another component using it cause unexpected behavior
+### changing a component then changing another component using it causes unexpected behavior
 Chang `preact-nollup/src/Counter.jsx` to:
 ```jsx
 import './Counter.css';
