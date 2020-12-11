@@ -1,0 +1,13 @@
+{
+    "presets": [
+        "preact"
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+                "@babel/plugin-syntax-import-meta",
+                "@prefresh/babel-plugin"
+            ]
+        }
+    }
+}

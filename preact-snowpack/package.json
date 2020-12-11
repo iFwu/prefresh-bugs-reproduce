@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "test": "jest",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "prettier --check \"src/**/*.{js,jsx}\""
+  },
+  "dependencies": {
+    "preact": "^10.5.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@prefresh/snowpack": "^2.1.0",
+    "@snowpack/plugin-babel": "^2.1.5",
+    "@snowpack/plugin-react-refresh": "^2.3.8",
+    "babel-preset-preact": "^2.0.0",
+    "snowpack": "^2.15.1"
+  },
+  "browserslist": "defaults, not ie 11",
+  "version": "0.0.9",
+  "name": "snowpack-app-template-preact-hmr-tailwind",
+  "main": "index.js",
+  "repository": "https://github.com/Mozart409/snowpack-app-template-preact-hmr-tailwind.git",
+  "author": "Amadeus <hey@mozart409.space>",
+  "license": "MIT"
+}

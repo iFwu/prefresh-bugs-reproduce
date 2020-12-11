@@ -1,0 +1,13 @@
+diff --git a/src/index.js b/src/index.js
+index c05a4d01c55d65a11e62c4ab39cbb4930dbd8d81..d124d27a5f5f11512c4abbc96ba52e8cd5643488 100644
+--- a/src/index.js
++++ b/src/index.js
+@@ -44,7 +44,7 @@ module.exports = function() {
+ 			return {
+ 				code: [
+ 					code,
+-					'import { __$RefreshCheck$__ } from "@prefresh/nollup/src/runtime"',
++					'import { __$RefreshCheck$__ } from "@prefresh/nollup/src/runtime.js"',
+ 					'__$RefreshCheck$__(module)'
+ 				].join(';')
+ 			};

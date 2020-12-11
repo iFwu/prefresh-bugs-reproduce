@@ -1,0 +1,22 @@
+{
+    "scripts": {
+        "clean": "shx rm -rf dist",
+        "dev": "NODE_ENV=development nollup -c --hot --content-base public --port 9001",
+        "build": "npm run clean && cross-env NODE_ENV=production rollup -c"
+    },
+    "dependencies": {
+        "preact": "^10.5.7"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@prefresh/babel-plugin": "^0.2.2",
+        "@rollup/plugin-babel": "^5.2.2",
+        "@rollup/plugin-node-resolve": "^11.0.0",
+        "babel-preset-preact": "^2.0.0",
+        "nollup": "^0.14.2",
+        "rollup": "^2.34.2",
+        "rollup-plugin-hot-css": "^0.4.0",
+        "rollup-plugin-static-files": "0.1.0",
+        "shx": "^0.3.3"
+    }
+}
