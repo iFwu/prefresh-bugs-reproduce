@@ -2,7 +2,7 @@
 
 ## For `@prefresh/nollup` and `@prefresh/snowpack`
 ### `useEffect` callback changes not trigger refresh
-In `preact-nollup/src/Counter.js`:
+In `preact-nollup/src/Counter.js` or `preact-snowpack/src/Counter.js`:
 ```jsx
 useEffect(() => {
     let interval = setInterval(() => {
@@ -19,7 +19,7 @@ Changing codes in `useEffect` not triggers refresh. e.g. Change interval time, t
 
 ## For `@prefresh/snowpack`
 ### changing a component then changing another component using it causes unexpected behavior
-Chang `preact-nollup/src/Counter.jsx` to:
+Chang `preact-snowpack/src/Counter.jsx` to:
 ```jsx
 import './Counter.css';
 
